@@ -1,10 +1,16 @@
 import React from 'react';
 
 import './index.css';
+import Pitch from '../pitch';
+import Staircase from '../staircase';
 
 function Wall() {
   return (
-    <p>wall works!</p>
+    <React.Fragment>
+      <p>wall works!</p>
+      <Pitch />
+      <Staircase />
+    </React.Fragment>
   );
 }
 
